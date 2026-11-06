@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #101828;
+            height: 100px;
+            width: 100%;
+            position:sticky;
+            top: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 100px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        nav{
+            display: flex;
+            gap: 10px;
+        }
+        .margin{
+            margin: 0px;
+        }
+        footer{
+            background-color: #101828;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: rows;
+            justify-content: space-between;
+            padding: 0px 100px;
+            align-items: center;
+        }
+        .green{
+            color: #79eec7;
+        }
+        .white{
+            color: rgb(200, 200, 200);
+        }
+        .alex{
+            font-size: 27px;
+        }
+        .footerleftblock {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+        }
+        .footerleftblock p {
+            margin: 0;
+        }
+        .falex {
+            font-size: 27px;
+        }
+        main{
+            height: 730px;
+            width: 100%;
+            background-color: azure;
+        }
+        .cards{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px 0;
+            align-items: center;
+        }
+        section{
+            padding: 10px 100px;
+        }
+        .card0{
+            width: 600px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+        }
+        h1{
+            padding-top: 50px;
+        }
+        .para{
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="green alex">Alex.dev</a>
+        <nav>
+            <a href="home.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="skills.html">Skills</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>
+                Achievements 🏆
+            </h1>
+            <p class="para">
+                Celebrating the progress I make along the way.  
+            </p>
+            <div class="cards">
+                <div class="card0">
+                    <h3>
+                        🌐 Built My First Website
+                    </h3>
+                    <p>
+                        Created my first webpage using HTML and basic CSS. 
+                    </p>
+                    <small>Milestone 01</small>
+                </div>
+                <div class="card0">
+                    <h3>
+                        💻 Completed Coding Challenges
+                    </h3>
+                    <p>
+                        Practised logical thinking by solving beginner problems. 
+                    </p>
+                    <small>Milestone 02</small>
+                </div>
+                <div class="card0">
+                    <h3>
+                        🎨 Designed My Own Portfolio
+                    </h3>
+                    <p>
+                        Learned to arrange content using Flexbox and CSS positioning.
+                    </p>
+                    <small>Milestone 03</small>
+                </div>
+                <div class="card0">
+                    <h3>
+                        🚀 My Next Goal
+                    </h3>
+                    <p>
+                        Build a useful website that solves a real-world problem. 
+                    </p>
+                    <small>Comming Soon</small>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerleftblock">
+            <a href="home.html" class="green falex">Alex.dev</a>
+            <p class="white margin">Turning ideas into reality.</p>
+        </div>
+        <p class="white">
+            Made with ❤️ using HTML & CSS | © 2026
+        </p>
+        <a href="home.html" class="green">Back To Top</a>
+    </footer>
+</body>
+</html>

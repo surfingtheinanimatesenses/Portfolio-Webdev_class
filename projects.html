@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #101828;
+            height: 100px;
+            width: 100%;
+            position:sticky;
+            top: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 100px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        nav{
+            display: flex;
+            gap: 10px;
+        }
+        .margin{
+            margin: 0px;
+        }
+        footer{
+            background-color: #101828;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: rows;
+            justify-content: space-between;
+            padding: 0px 100px;
+            align-items: center;
+        }
+        .green{
+            color: #79eec7;
+        }
+        .white{
+            color: rgb(200, 200, 200);
+        }
+        .alex{
+            font-size: 27px;
+        }
+        .footerleftblock {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+        }
+        .footerleftblock p {
+            margin: 0;
+        }
+        .falex {
+            font-size: 27px;
+        }
+        main{
+            height: 640px;
+            width: 100%;
+            background-color: azure;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        section{
+            padding: 10px 100px;
+        }
+        .card0{
+            width: 300px;
+            height: 340px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+        }
+        .fakebtn{
+            margin: 12px 0;
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #63e1b731;
+            color: rgb(6, 197, 63);
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        h1{
+            font-size: 40px;
+            padding-top: 50px;
+        }
+        .para{
+            padding: 10px 0;
+        }
+        .emo{
+            font-size: 35px;
+        }
+        .h3{
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="green alex">Alex.dev</a>
+        <nav>
+            <a href="home.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="skills.html">Skills</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>
+                My Projects 💻
+            </h1>
+            <p class="para">
+                Every project is a new opportunity to learn.  
+            </p>
+            <div class="cards">
+                <div class="card0">
+                    <div class="emo">
+                        🌐
+                    </div>
+                    <a href="" class="fakebtn">Project 01</a>
+                    <h3 class="h3">
+                        Personal Website
+                    </h3>
+                    <p>
+                        A personal website to introduce myself, share my interests, and display my work. 
+                    </p>
+                </div>
+                <div class="card0">
+                    <div class="emo">
+                        🎮
+                    </div>
+                    <a href="" class="fakebtn">Project 02</a>
+                    <h3 class="h3">
+                        Fun Quiz
+                    </h3>
+                    <p>
+                        A quiz concept with questions about science, nature, technology, and general knowledge. 
+                    </p>
+
+                </div>
+                <div class="card0">
+                    <div class="emo">
+                        🌱
+                    </div>
+                    <a href="" class="fakebtn">Project 03</a>
+                    <h3 class="h3">
+                        Go Green
+                    </h3>
+                    <p>
+                        A website sharing simple ideas that help students protect the environment. 
+                    </p>
+
+                </div>
+                <div class="card0">
+                    <div class="emo">
+                        💰
+                    </div>
+                    <a href="" class="fakebtn">Project 04</a>
+                    <h3 class="h3">
+                        My Budget Planner
+                    </h3>
+                    <p>
+                        A design concept that helps students understand savings, spending, and budgeting. 
+                    </p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerleftblock">
+            <a href="home.html" class="green falex">Alex.dev</a>
+            <p class="white margin">Turning ideas into reality.</p>
+        </div>
+        <p class="white">
+            Made with ❤️ using HTML & CSS | © 2026
+        </p>
+        <a href="home.html" class="green">Back To Top</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        header {
+            background-color: #101828;
+            height: 100px;
+            position: sticky;
+            top: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 100px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+
+        .section1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 50px 100px;
+            background-color: #101828;
+            height: 500px;
+        }
+
+        .radius {
+            border-radius: 150px;
+        }
+
+        .section2 {
+            background-color: white;
+            height: 450px;
+            padding: 50px 100px;
+        }
+
+        footer {
+            background-color: #101828;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 100px;
+            align-items: center;
+        }
+
+        .twobox {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .box1,
+        .box2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            height: 50px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .box1 {
+            width: 180px;
+            background-color: #10b981;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .box2 {
+            width: 150px;
+            background-color: #101828;
+            border: 0.1px solid white;
+        }
+
+        .green {
+            color: #79eec7;
+        }
+
+        .white {
+            color: rgb(200, 200, 200);
+        }
+
+        .box11 {
+            color: #101828;
+        }
+
+        .img {
+            padding-top: 50px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 250px;
+        }
+
+        .cards>div {
+            height: 250px;
+            width: 420px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .card0 {
+            padding: 20px;
+        }
+
+        .here {
+            padding-bottom: 30px;
+        }
+
+        .hwo,
+        .ima,
+        .ast,
+        .ilo {
+            padding: 5px 0;
+        }
+
+        .thr {
+            display: inline-block;
+            color: #101828;
+            background-color: #10b981;
+            padding: 13px 22px;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+
+        .ima {
+            color: white;
+            font-size: 60px;
+        }
+
+        .ast {
+            font-size: 45px;
+        }
+
+        .Archit {
+            font-size: 27px;
+        }
+
+        .disc {
+            font-size: 13px;
+            padding: 2px 0;
+        }
+
+        .footerleftblock {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+        }
+
+        .fArchit {
+            font-size: 27px;
+        }
+
+        .emo {
+            padding: 10px 0;
+            font-size: 25px
+        }
+
+        .ilo {
+            padding-bottom: 20px;
+        }
+
+        .subhead {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        .portfolio {
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+
+        .title {
+            position: relative;
+            top: -55px;
+            right: -140px;
+            background-color: rgb(249, 194, 13);
+            color: #101828;
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: 160px;
+            height: 40px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="home.html" class="green Archit">Archit.dev</a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div>
+                <h4 class="hwo green">
+                    HELLO, WORLD! 👋
+                </h4>
+                <h1 class="ima">
+                    I'm Archit,
+                </h1>
+                <h1 class="ast green">
+                    a Student Developer.
+                </h1>
+                <p class="ilo white">
+                    I love coding, designing websites, exploring technology, and turning<br>
+                    creative ideas into real projects.
+                </p>
+                <div class="twobox">
+                    <div class="box1">
+                        <a href="projects.html" class="box11">View My Projects</a>
+                    </div>
+                    <div class="box2">
+                        <a href="about.html">About Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="pfp.jpg" alt="blehhh" height="250" width="250" class="radius">
+                <div class="title">
+                    Future Coder ✨
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <h2 class="portfolio">
+                Welcome to My Portfolio
+            </h2>
+            <p class="here">
+                Here's a little look at what I learn and create.
+            </p>
+            <div class="cards">
+                <div class="card0">
+                    <div class="emo">
+                        🎓
+                    </div>
+                    <h3 class="subhead">
+                        My Story
+                    </h3>
+                    <p class="disc">
+                        Discover my interests, education, and goals.
+                    </p>
+                    <br>
+                    <a href="about.html" class="thr">Know Me</a>
+                </div>
+                <div class="card0">
+                    <div class="emo">
+                        💻
+                    </div>
+                    <h3 class="subhead">
+                        My Work
+                    </h3>
+                    <p class="disc">
+                        Explore websites, games, and creative projects.
+                    </p>
+                    <br>
+                    <a href="projects.html" class="thr">Explore</a>
+                </div>
+                <div class="card0">
+                    <div class="emo">
+                        🏆
+                    </div>
+                    <h3 class="subhead">
+                        My Achievements
+                    </h3>
+                    <p class="disc">
+                        See my learning milestones and accomplishments.
+                    </p>
+                    <br>
+                    <a href="achievements.html" class="thr">View More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerleftblock">
+            <a href="home.html" class="green fArchit">Archit.dev</a>
+            <p class="white">Turning ideas into reality.</p>
+        </div>
+        <p class="white">
+            Made with ❤️ using HTML & CSS | © 2026
+        </p>
+        <a href="home.html" class="green">Back To Top</a>
+    </footer>
+</body>
+
+</html>

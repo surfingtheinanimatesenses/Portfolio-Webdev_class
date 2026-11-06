@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #101828;
+            height: 100px;
+            width: 100%;
+            position:sticky;
+            top: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 100px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        nav{
+            display: flex;
+            gap: 10px;
+        }
+        .margin{
+            margin: 0px;
+        }
+        footer{
+            background-color: #101828;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: rows;
+            justify-content: space-between;
+            padding: 0px 100px;
+            align-items: center;
+        }
+        .green{
+            color: #79eec7;
+        }
+        .white{
+            color: rgb(200, 200, 200);
+        }
+        .Archit{
+            font-size: 27px;
+        }
+        .footerleftblock {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+        }
+        .footerleftblock p {
+            margin: 0;
+        }
+        .fArchit {
+            font-size: 27px;
+        }
+        main{
+            height: 900px;
+            width: 100%;
+            background-color: rgb(235, 242, 242);
+        }
+        .flexo{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+        section{
+            padding: 10px 100px;
+        }
+        .rightbox{
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            height: 500px;
+            width: 865px;
+            border-radius: 10px;
+            background-color: #ffffffa5;
+        }
+        .rbcontent{
+            padding: 10px 20px;
+        }
+        h1{
+            padding-top: 50px;
+        }
+        .disc{
+            padding: 20px 0;
+        }
+        form{
+            padding: 27px 23px;
+        }
+        #name, #email, #message{
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 17px;
+        }
+        .Name{
+            display: inline-block;
+            font-size: 20px;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="green Archit">Archit.dev</a>
+        <nav>
+            <a href="home.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="skills.html">Skills</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Let's Connect! ✉️</h1>
+            <p class="disc">
+                Have an idea or want to talk about technology? Say hello!
+            </p>
+            <div class="flexo">
+                <div>   
+                    <h2>
+                    Get in Touch
+                    </h2>
+                    <br>
+                    <p>
+                        📧 Archit@example.com 
+                    </p>
+                    <p>
+                       📍 My hometown
+                    </p>
+                    <p>
+                        💡 Open to creative project ideas
+                    </p>
+                    <br>
+                    <p>
+                        I enjoy meeting people who love learning, building,<br>
+                        and sharing ideas. 
+                    </p>
+                </div>
+                <div class="rightbox">
+                    <form>
+                        <h2>Send a Message</h2>
+                        <label for="name" class="Name">Your Name</label>
+                        <input type="text" placeholder="Enter Your Name" id="name" name="name" >
+                        <br>
+                        <label for="email" class="Name">Your Email</label>
+                        <input type="email" placeholder="Enter Your Email" id="email" name="email" >
+                        <br>
+                        <label for="message" class="Name">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message..." style="width: 100%; height: 120px;"></textarea>
+                        
+                        <button type="submit" style="background-color: #79ee9e; border-radius: 5px; border: none; color: #101828; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">Send Message 💬</button>
+                    </form>
+                    
+                </div>
+            </div>
+            <br>
+            <br>
+            <p>
+                The sample form uses an email link. A real website should use a properly configured form service or backend. 
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class="footerleftblock">
+            <a href="home.html" class="green fArchit">Archit.dev</a>
+            <p class="white margin">Turning ideas into reality.</p>
+        </div>
+        <p class="white">
+            Made with ❤️ using HTML & CSS | © 2026
+        </p>
+        <a href="home.html" class="green">Back To Top</a>
+    </footer>
+</body>
+</html>
